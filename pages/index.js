@@ -1,4 +1,6 @@
-import Head from 'next/head'
+import Head from "next/head";
+import Header from "../components/Header";
+import Nav from "../components/Nav";
 
 export default function Home() {
   return (
@@ -6,9 +8,9 @@ export default function Home() {
       <Head>
         <title>Hulu clone</title>
         <link rel="icon" href="/favicon.ico" />
-        <h1>Hello world</h1>
       </Head>
-
+      <Header />
+      <Nav />
     </div>
-  )
+  );
 }
